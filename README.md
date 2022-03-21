@@ -1,1 +1,1 @@
-# cv-app
+Create a CV/resume builder application using React & CSS.
