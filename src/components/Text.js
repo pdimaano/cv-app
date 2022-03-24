@@ -35,7 +35,7 @@ function Text(props) {
                     {props.company}
                 </p>
                 <p>
-                    <span className='category-text'>Title:</span>
+                    <span className='category-text'>Title:</span>{' '}
                     {props.title}
                 </p>
                 <p>
