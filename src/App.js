@@ -46,27 +46,27 @@ const App = () => {
           <main>
             <h1 className='title'>CV-App with React</h1>
             <Print>
-              <h2 className='subTitle'>General Info</h2>
+              <h2 className='sub-title'>General Info</h2>
               <General />
             </Print>
             <div>
               <Print>
-                <h2 className='subTitle'>Education</h2>
+                <h2 className='sub-title'>Education</h2>
                 {eduComponents}
               </Print>
               <button
-                className='addBtn'
+                className='add-btn'
                 onClick={() => handleClick('educationIds')}>
                 Add
               </button>
             </div>
             <div>
               <Print>
-                <h2 className='subTitle'>Experience</h2>
+                <h2 className='sub-title'>Experience</h2>
                 {expComponents}
               </Print>
               <button
-                className='addBtn'
+                className='add-btn'
                 onClick={() => handleClick('experienceIds')}>
                 Add
               </button>
@@ -75,7 +75,7 @@ const App = () => {
               onClick={() => {
                 window.print();
               }}
-              className='addBtn'>
+              className='add-btn'>
               Print
             </button>
           </main>

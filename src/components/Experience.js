@@ -48,7 +48,7 @@ const Experience = (props) => {
                 <p className='warning'>Please complete the form</p>
             </Print>
             <section>
-                <form action='' className='section xpSection' onSubmit={handleSubmit}>
+                <form action='' className='section xp-section' onSubmit={handleSubmit}>
                     <label>
                         <p>Company:</p>
                         <input
@@ -65,7 +65,7 @@ const Experience = (props) => {
                         <input
                             type='text'
                             placeholder='Title'
-                            name='position'
+                            name='title'
                             onChange={handleChange}
                             value={title}
                             required
@@ -101,9 +101,9 @@ const Experience = (props) => {
                         value={tasks}
                         required
                     />
-                    <button className='formBtn'>Save</button>
+                    <button className='form-btn'>Save</button>
                     <button
-                        className='formBtn'
+                        className='form-btn'
                         type='button'
                         onClick={() => handleDelete('experienceIds', id)}>
                         Remove

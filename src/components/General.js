@@ -44,7 +44,7 @@ const General = () => {
             <Print printOnly>
                 <p className='warning'>Please complete the form</p>
             </Print>
-            <section className='generalSection'>
+            <section className='general-section'>
                 <form className='section' action='' onSubmit={handleSubmit}>
                     <label>
                         <p>First Name:</p>
@@ -90,7 +90,7 @@ const General = () => {
                             required
                         />
                     </label>
-                    <button className='formBtn generalBtn' type='submit'>
+                    <button className='form-btn general-btn' type='submit'>
                         Save
                     </button>
                 </form>

@@ -89,9 +89,9 @@ const Education = (props) => {
                             required
                         />
                     </label>
-                    <button className='formBtn'>Save</button>
+                    <button className='form-btn'>Save</button>
                     <button
-                        className='formBtn'
+                        className='form-btn'
                         type='button'
                         onClick={() => handleDelete('educationIds', id)}>
                         Remove

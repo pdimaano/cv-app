@@ -2,72 +2,72 @@ import { NoPrint } from 'react-easy-print';
 function Text(props) {
     if (props.firstName) {
         return (
-            <div className='textSection'>
+            <div className='text-section'>
                 <NoPrint single>
-                    <span className='material-icons editIcon' onClick={props.handleEdit}>
+                    <span className='material-icons edit-icon' onClick={props.handleEdit}>
                         create
                     </span>
                 </NoPrint>
                 <p>
-                    <span className='categoryText'>First Name:</span> {props.firstName}
+                    <span className='category-text'>First Name:</span> {props.firstName}
                 </p>
                 <p>
-                    <span className='categoryText'>Last Name:</span> {props.lastName}
+                    <span className='category-text'>Last Name:</span> {props.lastName}
                 </p>
                 <p>
-                    <span className='categoryText'>Email:</span> {props.email}
+                    <span className='category-text'>Email:</span> {props.email}
                 </p>
                 <p>
-                    <span className='categoryText'>Phone:</span> {props.phone}
+                    <span className='category-text'>Phone:</span> {props.phone}
                 </p>
             </div>
         );
     } else if (props.company) {
         return (
-            <div className='textSection'>
+            <div className='text-section'>
                 <NoPrint single>
-                    <span className='material-icons editIcon' onClick={props.handleEdit}>
+                    <span className='material-icons edit-icon' onClick={props.handleEdit}>
                         create
                     </span>
                 </NoPrint>
                 <p>
-                    <span className='categoryText'>Company:</span>{' '}
-                    {props.companyName}
+                    <span className='category-text'>Company:</span>{' '}
+                    {props.company}
                 </p>
                 <p>
-                    <span className='categoryText'>Position:</span>
-                    {props.position}
+                    <span className='category-text'>Title:</span>
+                    {props.title}
                 </p>
                 <p>
-                    <span className='categoryText'>From:</span> {props.from}
+                    <span className='category-text'>From:</span> {props.from}
                 </p>
                 <p>
-                    <span className='categoryText'>To:</span> {props.to}
+                    <span className='category-text'>To:</span> {props.to}
                 </p>
                 <p>
-                    <span className='categoryText'>Tasks:</span> {props.tasks}
+                    <span className='category-text'>Tasks:</span> {props.tasks}
                 </p>
             </div>
         );
     } else {
         return (
-            <div className='textSection'>
+            <div className='text-section'>
                 <NoPrint single>
-                    <span className='material-icons editIcon' onClick={props.handleEdit}>
+                    <span className='material-icons edit-icon' onClick={props.handleEdit}>
                         create
                     </span>
                 </NoPrint>
                 <p>
-                    <span className='categoryText'>School:</span> {props.school}
+                    <span className='category-text'>School:</span> {props.school}
                 </p>
                 <p>
-                    <span className='categoryText'>Major:</span> {props.major}
+                    <span className='category-text'>Major:</span> {props.major}
                 </p>
                 <p>
-                    <span className='categoryText'>From:</span> {props.from}
+                    <span className='category-text'>From:</span> {props.from}
                 </p>
                 <p>
-                    <span className='categoryText'>To:</span> {props.to}
+                    <span className='category-text'>To:</span> {props.to}
                 </p>
             </div>
         );
