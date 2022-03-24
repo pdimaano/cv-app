@@ -76,6 +76,12 @@ main {
   height: max-content;
 }
 
+.edit-icon {
+  float: right;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
 .category-text {
   font-weight: bold;
 }

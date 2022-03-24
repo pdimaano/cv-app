@@ -4,8 +4,8 @@ function Text(props) {
         return (
             <div className='text-section'>
                 <NoPrint single>
-                    <span className='material-icons edit-icon' onClick={props.handleEdit}>
-                        create
+                    <span className='edit-icon' onClick={props.handleEdit}>
+                        Edit
                     </span>
                 </NoPrint>
                 <p>
@@ -26,8 +26,8 @@ function Text(props) {
         return (
             <div className='text-section'>
                 <NoPrint single>
-                    <span className='material-icons edit-icon' onClick={props.handleEdit}>
-                        create
+                    <span className='edit-icon' onClick={props.handleEdit}>
+                        Edit
                     </span>
                 </NoPrint>
                 <p>
@@ -53,8 +53,8 @@ function Text(props) {
         return (
             <div className='text-section'>
                 <NoPrint single>
-                    <span className='material-icons edit-icon' onClick={props.handleEdit}>
-                        create
+                    <span className='edit-icon' onClick={props.handleEdit}>
+                        Edit
                     </span>
                 </NoPrint>
                 <p>
