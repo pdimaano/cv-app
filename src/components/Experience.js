@@ -96,7 +96,7 @@ const Experience = (props) => {
                     <textarea
                         name='tasks'
                         className='tasks'
-                        placeholder='Main Tasks'
+                        placeholder='Tasks, duties, etc.'
                         onChange={handleChange}
                         value={tasks}
                         required
