@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #7bdde4;
 }
 
 button {
@@ -13,26 +14,25 @@ button {
   text-decoration: none;
   outline: none;
   color: black;
-  border: 2px solid #343434;
 }
 
 main {
-  border: 2px solid #111111;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #f8f0f0;
   width: 60vw;
-  max-width: 600px;
-  height: max-content;
-  margin: auto;
+  max-width: 700px;
 }
 
 .title {
   text-align: center;
+  font-size: 3rem;
 }
 
 .sub-title {
   text-align: center;
   margin-top: 20px;
-  font-weight: 300;
-  text-decoration: underline;
   padding-bottom: 10px;
 }
 
@@ -45,7 +45,7 @@ main {
 }
 
 .section {
-  height: 200px;
+  height: 230px;
   display: grid;
   grid-template-columns: repeat(2, 50%);
   grid-template-rows: repeat(3, auto);
@@ -90,6 +90,7 @@ label > input {
   width: 90%;
   height: 40%;
   margin-top: 5px;
+  border-radius: 7px;
 }
 
 .form-btn {
