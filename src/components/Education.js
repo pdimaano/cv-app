@@ -5,7 +5,7 @@ import Text from './Text';
 const Education = (props) => {
     const [educationInfo, setEducationInfo] = useState({
         school: '',
-        major: '',
+        degree: '',
         from: '',
         to: '',
     });
@@ -22,14 +22,14 @@ const Education = (props) => {
         setEditMode((prevMode) => !prevMode);
     };
 
-    const { school, major, from, to } = educationInfo;
+    const { school, degree, from, to } = educationInfo;
 
     const { id, handleDelete } = props;
     if (!editMode) {
         return (
             <Text
                 school={school}
-                major={major}
+                degree={degree}
                 from={from}
                 to={to}
                 handleEdit={handleSubmit}
@@ -57,13 +57,13 @@ const Education = (props) => {
                         />
                     </label>
                     <label>
-                        <p>Major:</p>
+                        <p>Degree:</p>
                         <input
                             type='text'
-                            placeholder='Major'
-                            name='major'
+                            placeholder='Degree'
+                            name='degree'
                             onChange={handleChange}
-                            value={major}
+                            value={degree}
                             required
                         />
                     </label>

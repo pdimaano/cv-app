@@ -61,7 +61,7 @@ function Text(props) {
                     <span className='category-text'>School:</span> {props.school}
                 </p>
                 <p>
-                    <span className='category-text'>Major:</span> {props.major}
+                    <span className='category-text'>Degree:</span> {props.degree}
                 </p>
                 <p>
                     <span className='category-text'>From:</span> {props.from}
